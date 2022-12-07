@@ -40,5 +40,5 @@ personajesList();
 window.addEventListener('hashchange', () => {
     const id = location.hash.slice(1).toLocaleLowerCase().split('/')[1] || '/';
     localStorage.setItem('charID', id);
-    window.location.replace('./personaje.html');
+    window.location.replace('/personaje.html');
 });
